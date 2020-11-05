@@ -18,10 +18,19 @@ export default function() {
   );
 
   /* Hero Section */
+  ScrollReveal().reveal('.jumbotron', 
+  assignProps(
+    { 
+      delay: 300, 
+      origin: window.innerWidth > 768 ? 'left' : 'bottom'
+    }, defaultProps)
+);
+
+
   ScrollReveal().reveal('.hero-title', 
     assignProps(
       { 
-        delay: 500, 
+        delay: 600, 
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
