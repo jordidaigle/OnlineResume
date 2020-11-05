@@ -22,7 +22,7 @@ module.exports = {
             }
           }
         ]
-      }
+      },
     ]
   },
   // This config allows to use jQuery $ sign
